@@ -23,3 +23,11 @@ close.onclick = function(e){
     let alert= document.querySelector(".alert");
     alert.style.display = "none";
 }
+
+
+
+$(
+    function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+)
