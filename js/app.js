@@ -25,9 +25,3 @@ close.onclick = function(e){
 }
 
 
-
-$(
-    function(){
-        $('[data-toggle="tooltip"]').tooltip();
-    }
-)
